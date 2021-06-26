@@ -5,7 +5,7 @@ process.env['ELECTRON_DISABLE_SECURITY_WARNINGS'] = 'true'
 
 app.on('window-all-closed', () => { if (process.platform !== 'darwin') app.quit() })
 app.on('ready', () => {
-    fs.writeFileSync(preload, 'window.require = require')
+    fs.writeFileSync(preload, `window.require = mod => (mod == 'node-fetch') ? window.fetch : require(mod)`)
     fs.writeFileSync('index.html', `<script src='${process.argv[2]}'></script>`)
 
     const win = new BrowserWindow({
