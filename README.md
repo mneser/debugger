@@ -1,10 +1,11 @@
-#JS debug
+JS debug
+========
 
-##Install instructions:
+**Install instructions:**
 npm install electron -g
 
-##Usage:
-electron debug <script>
+**Usage:**
+electron debug *<script>*
 
-##Example:
+**Example:**
 electron debug index.js
