@@ -1,7 +1,7 @@
 JS debug
 ========
 
-Employing the Electron app builder to debug server-side Javascript. Single-step Node.js & Express and monitor resources using the Chromium browser DevTools.
+Employing the Electron app builder to debug server-side Javascript. Single-step native Node.js & Express code and monitor network and memory resources using the Chromium browser DevTools.
 
 **Install instructions:**
 > npm install electron -g
@@ -12,6 +12,5 @@ Employing the Electron app builder to debug server-side Javascript. Single-step 
 **Example:**
 > electron debug sample.js
 
-**Browse:**
-* http://localhost/code
-* http://localhost/git
+* http://localhost/code from filesystem
+* http://localhost/git from fetch
