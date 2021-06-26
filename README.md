@@ -10,7 +10,7 @@ Employing the Electron app builder to debug server-side Javascript. Single-step 
 > electron debug *<script>*
 
 **Example:**
-> electron debug index.js
+> electron debug sample.js
 
 **Browse:**
 * http://localhost/code
