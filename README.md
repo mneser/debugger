@@ -7,7 +7,7 @@ Employing the Electron app builder to debug server-side Javascript. Single-step 
 > npm install electron -g
 
 **Usage:**
-> electron debug *<javascript>*
+> electron debug <javascript>
 
 **Example:**
 > electron debug index.js
